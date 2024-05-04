@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .carousel-inner{
+    height: 95vh;
+  }
+  #cards{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 100px 10px;
+  }
+  #sec3{
+    height: 80vh;
+    width: 100%;
+    background-image: url("https://demo2.wpopal.com/unity/wp-content/uploads/2019/08/rev_sliderhome1_1.jpg");
+    background-size: cover;
+    position: relative;
+        
+      
+}
+
+#sec3 h1{
+    position: absolute;
+    right: 90px;
+    top: 130px;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    font-family: "Mochiy Pop One", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        /* font-size: 400px; */
+        
+}
+#sec4{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    margin: 100px 10px;
+}
+#sec4img{
+    width: 80vw;
+}
+#capureimg{
+    width: 25vw;
+}
+#sec4-1{
+    background-color: white;
+    width: 60vw;
+    height: 60vh;
+    padding: 30px;
+    position: absolute;
+    top: 220px;
+    right: 30px;
+    display: flex;
+    
+}
+#sec4-1-1{
+    width: 50%;
+    padding: 20px;
+}
+#sec4-1-2{
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+#sec4-1-2 button{
+    width: 80%;
+    border-radius: 50px;
+}
+#carouselExampleControls{
+    position: relative;
+}
+#baton{
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    background-color: rgba(255, 255, 255, 0.411);
+    padding: 100px;
+    border-radius: 20px;
+}
+#baton h1{
+    margin-bottom: 30px;
+}
+
+@media screen and  (max-width: 600px)
+{
+    #sec4 h3{
+        font-size: 15px;
+    }
+    #sec4 p{
+        font-size: 10px;
+    }
+    #sec4-1-1{
+        width: 50%;
+        padding: 5px;
+    }
+    #sec4-1-2 button{
+        width: 100%;
+        border-radius: 10px;
+        font-size: 9px;
+        padding: 2px 2px;
+        margin: 20px;
+     }
+     #baton{
+        position: absolute;
+        top: 130px;
+        left: 100px;
+        background-color: rgba(255, 255, 255, 0.411);
+        padding: 40px;
+        border-radius: 20px;
+    }
+    #cards{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin: 50px 5px;
+        
+      }
+
+      .card-text{
+        font-size: 10px;
+      }
+      .card-title{
+        font-size: 15px;
+      }
+      #cards .btn-primary{
+        font-size: 10px;
+      }
+      .carousel-inner{
+        height: 75vh;
+      }
+}
